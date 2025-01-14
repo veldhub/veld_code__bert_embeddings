@@ -1,6 +1,6 @@
 # veld_code__bert_embeddings
 
-**work in progress**
+**\*work in progress\***
 
 This repo contains [code velds](https://zenodo.org/records/13322913) encapsulating bert inference.
 

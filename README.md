@@ -1,4 +1,4 @@
-# veld_code__bert_embeddings
+# ![veld chain](https://raw.githubusercontent.com/veldhub/.github/refs/heads/main/images/symbol_V_letter.png) veld_code__bert_embeddings
 
 **\*work in progress\***
 

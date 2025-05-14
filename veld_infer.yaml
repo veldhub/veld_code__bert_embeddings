@@ -10,4 +10,5 @@ services:
     working_dir: /veld/code/
     volumes:
       - ./src/:/veld/code/
+      - ./data/cache/:/veld/storage/cache/
 

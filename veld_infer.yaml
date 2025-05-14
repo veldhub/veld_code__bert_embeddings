@@ -11,4 +11,6 @@ services:
     volumes:
       - ./src/:/veld/code/
       - ./data/cache/:/veld/storage/cache/
+    environment:
+      spacy_model: null
 

@@ -14,4 +14,10 @@ services:
     environment:
       spacy_model: null
       run_interactively: true
+    networks:
+      - postgres_network
+
+networks:
+  postgres_network:
+    driver: bridge
 

@@ -10,5 +10,5 @@ RUN pip install matplotlib==3.10.0
 RUN pip install scikit-learn==1.6.1
 RUN mkdir -p /veld/storage/cache/hf/ /veld/storage/cache/spacy/
 ENV HF_HUB_CACHE=/veld/storage/cache/hf/
-ENTRYPOINT ["/veld/code/load_models_base_cache.sh"]
+ENTRYPOINT ["bash", "/veld/code/load_models_base_cache.sh"]
 

@@ -3,8 +3,8 @@ x-veld:
 
 services:
   veld_infer:
-    #build: .
-    image: steffrhes/veld_code_bert_embeddings:2025-09-12
+    build: .
+    #image: steffrhes/veld_code_bert_embeddings:2025-09-12
     command: bash /veld/code/run.sh
     ports:
       - 8888:8888

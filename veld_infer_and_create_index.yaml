@@ -1,9 +1,0 @@
-x-veld:
-  code:
-
-services:
-  veld_infer:
-    build: .
-    volumes:
-      - ./src/:/veld/code/
-

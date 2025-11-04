@@ -15,6 +15,7 @@ services:
       spacy_model: null
       run_interactively: true
       input_file: null
+      table_name_sentences: "sentences_test"
       table_name_lemmas: null
       table_name_embeddings: null
       POSTGRES_USER: null

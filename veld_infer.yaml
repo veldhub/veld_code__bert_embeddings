@@ -13,6 +13,7 @@ services:
       - ./data/cache/:/veld/storage/cache/
     environment:
       spacy_model: null
+      enable_testing: true
       run_interactively: true
       input_file: null
       table_name_sentences: "sentences_test"

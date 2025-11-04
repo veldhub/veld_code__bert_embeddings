@@ -13,7 +13,7 @@ if [[ -n "$spacy_model" ]]; then
   else
     echo "could not find ${spacy_model} in /veld/storage/cache/spacy/ , downloading."
     python -m spacy download "$spacy_model"
-    cp -r /usr/local/lib/python3.10/site-packages/"$spacy_model"* /veld/storage/cache/spacy/
+    cp -r /usr/local/lib/python3.*/dist-packages/"$spacy_model"* /veld/storage/cache/spacy/
   fi
 fi
 

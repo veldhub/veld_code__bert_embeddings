@@ -4,7 +4,6 @@ x-veld:
 services:
   veld_infer:
     build: .
-    #image: steffrhes/veld_code_bert_embeddings:2025-09-12
     command: bash /veld/code/run.sh
     ports:
       - 8888:8888
@@ -15,6 +14,13 @@ services:
     environment:
       spacy_model: null
       run_interactively: true
+      input_file: null
+      table_name_lemmas: null
+      table_name_embeddings: null
+      POSTGRES_USER: null
+      POSTGRES_PASSWORD: null
+      POSTGRES_DB: null
+      POSTGRES_HOST: null
     networks:
       - postgres_network
 
